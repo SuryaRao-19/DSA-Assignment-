@@ -1,0 +1,18 @@
+Correctness Check:
+Insertion: [1, 2, 5, 5, 6, 9]
+Merge    : [1, 2, 5, 5, 6, 9]
+Quick    : [1, 2, 5, 5, 6, 9]
+
+Performance Results (ms):
+Size | Type    | Insertion | Merge | Quick
+1000 | random  |   15.32   |  2.10 |  1.80
+1000 | sorted  |    0.40   |  1.90 | 15.50
+1000 | reverse |   30.00   |  2.20 | 18.20
+
+5000 | random  |  380.00   | 12.00 | 10.50
+5000 | sorted  |    2.50   | 11.50 | 320.00
+5000 | reverse |  600.00   | 12.80 | 400.00
+
+10000| random  | 1500.00   | 25.00 | 22.00
+10000| sorted  |    5.00   | 24.00 | 1200.00
+10000| reverse | 2500.00   | 26.00 | 1800.00
